@@ -9,9 +9,9 @@
   .navbar-container{
     display: flex;
     justify-content: space-between;
-    width: 100vw;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #223e44;
     font-size: 20px;
   }
@@ -63,7 +63,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      width: 100vw;
+      width: 100%;
       padding-top: 10px;
       padding-bottom: 10px;
       background-color: #223e44;
@@ -74,7 +74,7 @@
       display: none;
     }
   
-    .show_nav{
+    .show-nav{
       padding-top: 2%;
       display: flex;
       width: 100%;
@@ -92,13 +92,10 @@
       padding: 0%;
     }
     .navbar-toggle {
-      margin-left: 10px;
-      margin-right: 10px;
-      font-size: 30px;
+      font-size: 20px;
       color: #ffffff;
       background: transparent;
       border-color: transparent;
-      transition: all 0.3s linear;
       cursor: pointer;
       display: block;
     }
